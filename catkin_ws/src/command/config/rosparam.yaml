@@ -1,0 +1,6 @@
+sensor_distance: 20
+turn_right_speed: 0.1
+turn_left_speed: -0.1
+forward_speed_motor1: 0.1
+forward_speed_motor2: -0.1
+forward_speed_motor3: 0
