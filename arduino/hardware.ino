@@ -30,7 +30,7 @@ void runMotorDriver(int RPWM, int LPWM, float PWM) {
     analogWrite(RPWM, 0);
     analogWrite(LPWM, 0);
   } else {
-    analogWrite(LPWM, (int)ceil(PWM * (-1)));
+    analogWrite(LPWM, (int)ceil(PWM) * (-1));
     digitalWrite(RPWM, LOW);
   }
 }
